@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Goals Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
-    
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Kaiga</a>
+        </div>
+        <div id="date-container">
+            <div data-testid="currentDay" id="day"></div>
+            <div id="month"></div>,
+            <div id="date"></div>
+            <div data-testid="currentTimeUTC" id="time"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <header class="header">
+            <div class="box">
+                <img src="/images/my-pic-683-x-535.jpg" data-test-id="slackProfilePicture" class="image"
+                    alt="my slack profile picture" />
+
+                <div class="info">
+                    <h1 data-testid="slackDisplayName">Kaiga Murithi</h1>
+                    <h2>Front-End Software Developer</h2>
+                    <a data-testid="slackEmail" href="mailto:kaigamunene@gmail.com" target="_blank">kaigamunene@gmail.com </a>
+
+                    <aside class="socials">
+                        <span>links:</span>
+                        <a href="http://hng.tech/learn" data-testid="hngLink" target="_blank">hng.tech/learn</a>
+                        <a href="http://keyword.dog/" data-testid="keywordLink" target="_blank">keyword.dog</a>
+                        <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink" target="_blank">scrapeanyweb.site</a>
+                    </aside>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <h1>Personal Goals Portfolio</h1>
+            <p>
+                This is a personal goals portfolio. It is a collection of my personal goals and the steps I am taking to
+                achieve them.
+                I have set these goals to help me grow as a person and to help me achieve my dreams. I hope that by
+                sharing my goals with
+                you, I can inspire you to set your own goals and work towards achieving them.
+            </p>
+            <h2>My Goals</h2>
+            <ul class="goals">
+                <li>
+                    <h3>Goal 1: Learn Web Development</h3>
+                    <p>
+                        I want to learn web development so that I can build websites and web applications. I have always
+                        been interested in
+                        technology and I believe that learning web development will help me to turn my ideas into
+                        reality.
+                    </p>
+                    <h4>Steps to achieve this goal:</h4>
+                    <ol>
+                        <li>Complete online web development courses</li>
+                        <li>Build a personal website</li>
+                        <li>Work on web development projects</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Goal 2: Improve my coding skills</h3>
+                    <p>
+                        I want to improve my coding skills so that I can become a better programmer. I believe that
+                        coding is a valuable
+                        skill that can open up many opportunities for me in the future.
+                    </p>
+                    <h4>Steps to achieve this goal:</h4>
+                    <ol>
+                        <li>Practice coding every day</li>
+                        <li>Work on coding projects</li>
+                        <li>Learn new programming languages</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Goal 3: Build a strong online presence</h3>
+                    <p>
+                        I want to build a strong online presence so that I can connect with other like-minded
+                        individuals and share my
+                        knowledge and ideas with the world. I believe that having a strong online presence is important
+                        in today's digital
+                        age.
+                    </p>
+                    <h4>Steps to achieve this goal:</h4>
+                    <ol>
+                        <li>Start a blog</li>
+                        <li>Be active on social media</li>
+                        <li>Contribute to online communities</li>
+                    </ol>
+                </li>
+            </ul>
+        </main>
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
